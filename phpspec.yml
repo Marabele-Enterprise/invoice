@@ -1,0 +1,5 @@
+suites:
+    main:
+        namespace: Invoice
+        psr4_prefix: Invoice
+        src_path: app
