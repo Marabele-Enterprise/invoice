@@ -149,6 +149,11 @@ return [
          */
         //Bestmomo\Scafold\ScafoldServiceProvider::class,
 
+        /*
+         * Provider for generating a .env file
+         */
+        MathiasGrimm\LaravelDotEnvGen\DotEnvGenServiceProvider::class,
+
     ],
 
     /*

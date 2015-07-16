@@ -8,6 +8,5 @@ Homestead.yaml
 .env
 .env.behat
 composer.phar
-composer.lock
 storage/
 

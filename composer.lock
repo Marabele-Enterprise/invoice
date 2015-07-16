@@ -4,50 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "67391c513562df16cff7ea656442c9b5",
+    "hash": "75bc9d3d5d2616a0620a06dd19d881ef",
     "packages": [
-        {
-            "name": "bestmomo/scafold",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/bestmomo/scafold.git",
-                "reference": "0e6f6e67ad1f8420eaca416efc60253ee937141a"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/bestmomo/scafold/zipball/0e6f6e67ad1f8420eaca416efc60253ee937141a",
-                "reference": "0e6f6e67ad1f8420eaca416efc60253ee937141a",
-                "shasum": ""
-            },
-            "require": {
-                "illuminate/support": "~5.1",
-                "php": ">=5.4.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Bestmomo\\Scafold\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Taylor Otwell",
-                    "email": "taylorotwell@gmail.com"
-                },
-                {
-                    "name": "Bestmomo",
-                    "email": "grandheretique@free.fr"
-                }
-            ],
-            "description": "To add scafold to Laravel 5.1",
-            "homepage": "http://github.com/bestmomo/scafold",
-            "time": "2015-07-04 09:14:48"
-        },
         {
             "name": "classpreloader/classpreloader",
             "version": "2.0.0",
@@ -1396,6 +1354,48 @@
                 "twitter"
             ],
             "time": "2015-05-18 00:04:43"
+        },
+        {
+            "name": "mathiasgrimm/laravel-dot-env-gen",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mathiasgrimm/laravel-dot-env-gen.git",
+                "reference": "966112e6c9b036a3fbc3d8787889afab529eada1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mathiasgrimm/laravel-dot-env-gen/zipball/966112e6c9b036a3fbc3d8787889afab529eada1",
+                "reference": "966112e6c9b036a3fbc3d8787889afab529eada1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "MathiasGrimm\\LaravelDotEnvGen\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Mathias Grimm",
+                    "email": "mathiasgrimm@gmail.com",
+                    "homepage": "http://phpEmpregos.com"
+                }
+            ],
+            "description": "A Laravel 5 artisan command to generate a .env.gen file based on the existing project.",
+            "homepage": "https://github.com/mathiasgrimm/laravel-dot-env-gen/",
+            "keywords": [
+                "artisan",
+                "command",
+                "dotenv",
+                "env",
+                "environment"
+            ],
+            "time": "2015-04-20 12:50:38"
         },
         {
             "name": "monolog/monolog",
@@ -3800,7 +3800,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "bestmomo/scafold": 20
+        "mathiasgrimm/laravel-dot-env-gen": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
