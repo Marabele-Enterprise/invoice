@@ -17,7 +17,6 @@ before_script:
   - php artisan env:gen
   - mv .env.gen .env
   - php artisan key:generate
-  - ls -a
 
 script: phpunit --verbose
 
